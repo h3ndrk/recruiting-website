@@ -1,0 +1,9 @@
+. {
+    loadbalance round_robin
+    file /conf/hulks-recruiting.de.zone hulks-recruiting.de.
+    forward . 1.1.1.1 {
+        except hulks-recruiting.de
+    }
+    log
+    errors
+}

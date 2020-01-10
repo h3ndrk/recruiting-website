@@ -1,0 +1,4 @@
+hulks-recruiting.de.      3600 IN SOA   ns.hulks-recruiting.de. postmaster.hulks-recruiting.de. ( 2020011001 3600 1200 604800 3600 )
+@                         3600 IN NS    ns.hulks-recruiting.de.
+hulks-recruiting.de.      3600 IN A     10.1.24.200
+hulks-recruiting.de.      3600 IN A     10.1.24.111

@@ -1,0 +1,10 @@
+version: "3"
+services:
+  coredns:
+    image: coredns/coredns
+    command: -conf /conf/Corefile
+    volumes:
+    - ./conf:/conf
+    ports:
+    - "53:53"
+    - "53:53/udp"
